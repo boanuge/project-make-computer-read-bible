@@ -1,0 +1,78 @@
+(venv) C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible>deactivate
+C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible>
+
+
+
+C:\Users\Boanuge>conda activate
+(base) C:\Users\Boanuge>pip install bs4
+(base) C:\Users\Boanuge>pip install Twitter
+(base) C:\Users\Boanuge>pip install konlpy
+(base) C:\Users\Boanuge>pip install tensorflow
+(base) C:\Users\Boanuge>pip install keras
+ImportError: Keras requires TensorFlow 2.2 or higher. Install TensorFlow via `pip install tensorflow`
+[Fix] (base) C:\Users\Boanuge>pip install keras==2.1.5
+(base) C:\Users\Boanuge>pip3 install --upgrade tensorflow
+(base) C:\Users\Boanuge>pip3 install --upgrade tensorflow-gpu
+To fix DLL load failed error, you have to download and install/update the Microsoft Visual C++ 2015-2019 Redistributable (x64) from:
+https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads --> VC_redist.x64.exe
+
+
+
+Microsoft Windows [Version 10.0.18363.959]
+(c) 2019 Microsoft Corporation. All rights reserved.
+C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible>conda activate
+
+(base) C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible>python -m http.server --cgi 8080
+
+Serving HTTP on :: port 8080 (http://[::]:8080/) ...
+::1 - - [03/Aug/2020 09:41:52] "GET /cgi-bin/chatbot.py HTTP/1.1" 200 -
+::1 - - [03/Aug/2020 09:41:52] command: C:\Users\Boanuge\Anaconda3\python.ex
+e -u C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible\cgi-
+bin\chatbot.py ""
+::1 - - [03/Aug/2020 09:41:56] b'C:\\Users\\Boanuge\\Anaconda3\\lib\\site-pa
+ckages\\konlpy\\tag\\_okt.py:16: UserWarning: "Twitter" has changed to "Okt"
+ since KoNLPy v0.4.5.\r\n  warn(\'"Twitter" has changed to "Okt" since KoNLP
+y v0.4.5.\')\r\nTraceback (most recent call last):\r\n  File "C:\\Users\\S.C
+hung\\Workspace\\project-python-make-computer-read-bible\\cgi-bin\\chatbot.p
+y", line 3, in <module>\r\n    from botengine import make_reply\r\n  File "C
+:\\Users\\Boanuge\\Workspace\\project-python-make-computer-read-bible\\cgi-b
+in\\botengine.py", line 8, in <module>\r\n    twitter = Twitter()\r\n  File
+"C:\\Users\\Boanuge\\Anaconda3\\lib\\site-packages\\konlpy\\tag\\_okt.py", l
+ine 17, in Twitter\r\n    return Okt(jvmpath)\r\n  File "C:\\Users\\Boanuge\
+\Anaconda3\\lib\\site-packages\\konlpy\\tag\\_okt.py", line 91, in __init__\
+r\n    jvm.init_jvm(jvmpath, max_heap_size)\r\n  File "C:\\Users\\Boanuge\\A
+naconda3\\lib\\site-packages\\konlpy\\jvm.py", line 55, in init_jvm\r\n    j
+vmpath = jvmpath or jpype.getDefaultJVMPath()\r\n  File "C:\\Users\\Boanuge\
+\Anaconda3\\lib\\site-packages\\jpype\\_jvmfinder.py", line 74, in getDefaul
+tJVMPath\r\n    return finder.get_jvm_path()\r\n  File "C:\\Users\\Boanuge\\
+Anaconda3\\lib\\site-packages\\jpype\\_jvmfinder.py", line 207, in get_jvm_p
+ath\r\n    raise jvm_notsupport_ext\r\n  File "C:\\Users\\Boanuge\\Anaconda3
+\\lib\\site-packages\\jpype\\_jvmfinder.py", line 192, in get_jvm_path\r\n
+  self.check(jvm)\r\n  File "C:\\Users\\Boanuge\\Anaconda3\\lib\\site-packag
+es\\jpype\\_jvmfinder.py", line 381, in check\r\n    _checkJVMArch(jvm)\r\n
+ File "C:\\Users\\Boanuge\\Anaconda3\\lib\\site-packages\\jpype\\_jvmfinder.
+py", line 347, in _checkJVMArch\r\n    raise JVMNotSupportedException(\r\njp
+ype._jvmfinder.JVMNotSupportedException: JVM mismatch, python is 64 bit and
+JVM is 32 bit.\r\n'
+::1 - - [03/Aug/2020 09:41:56] CGI script exit status 0x1
+
+
+
+C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible>jdk-14.0.2_windows-x64_bin.exe
+설정 --> 시스템 --> 정보 --> 시스템 정보 --> 고급 시스템 설정 --> 환경 변수 --> 시스템 변수 편집
+(1)변수 이름: JAVA_HOME
+변수 값(전): C:\Program Files (x86)\Java\jdk1.6.0_20
+변수 값(후): C:\Program Files\Java\jdk-14.0.2
+(2)변수 이름: Path
+변수 값(추가): %JAVA_HOME%\bin
+
+
+
+(base) C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible>python -m http.server --cgi 8080
+Serving HTTP on :: port 8080 (http://[::]:8080/) ...
+::1 - - [03/Aug/2020 10:12:42] "GET /cgi-bin/chatbot.py HTTP/1.1" 200 -
+::1 - - [03/Aug/2020 10:12:42] command: C:\Users\Boanuge\Anaconda3\python.exe -u C:\Users\Boanuge\Workspace\project-python-make-computer-read-bible\cgi-bin
+\chatbot.py ""
+::1 - - [03/Aug/2020 10:12:52] b'C:\\Users\\Boanuge\\Anaconda3\\lib\\site-packages\\konlpy\\tag\\_okt.py:16: UserWarning: "Twitter" has changed to "Okt" si
+nce KoNLPy v0.4.5.\r\n  warn(\'"Twitter" has changed to "Okt" since KoNLPy v0.4.5.\')\r\n'
+::1 - - [03/Aug/2020 10:12:52] CGI script exited OK
