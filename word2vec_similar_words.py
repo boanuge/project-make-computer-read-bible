@@ -5,6 +5,7 @@ from gensim.models import word2vec
 
 print("Application has started @ " + time.strftime('%c', time.localtime(time.time())))
 
+#f = open("bible-text-korean-easy.txt", mode='rt', encoding='utf-8')
 f = open("요한복음.txt", mode='rt', encoding='utf-8')
 text = f.read()
 f.close()
@@ -48,9 +49,9 @@ print('\n//Done: Model has been saved.\n')
 
 
 
-# 저장된 모델을 불러와서 사용
+# 저장된 모델을 불러와서 사용, 주의: 이전 트레이닝된 모델은 지워짐
 model = word2vec.Word2Vec.load("bible_word2vec_gensim.model")
-# 긍정적(positive) / 부정적(nagative) 연관이 있는 단어 출력가능
+# 긍정적(positive) 또는 부정적(nagative) 연관이 있는 단어 출력가능
 similar_words = model.wv.most_similar(positive=["예수", "성령"], negative=["사람"])[0:5]
 print(similar_words)
 
@@ -62,5 +63,15 @@ def print_array(arr):
     print("Array's Data:\n", arr)
 
 print_array(model.wv.__getitem__(["예수", "성령"]))
+
+
+
+word1 = "Jesus"
+word2 = "jesus"
+if word1 and word2 in model.wv.vocab:
+    similar_words = model.wv.most_similar(positive=["Jesus", "jesus"])[0:5]
+    print(similar_words)
+else:
+    print('''모델 사전 단어 오류: "word '{}' and '{}' not in vocabulary"'''.format(word1, word2))
 
 print("Application has ended @ " + time.strftime('%c', time.localtime(time.time())))
