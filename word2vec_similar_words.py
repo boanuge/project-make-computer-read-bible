@@ -2,6 +2,8 @@ import codecs
 from konlpy.tag import Okt
 from gensim.models import word2vec
 
+print("Application has started @ " + time.strftime('%c', time.localtime(time.time())))
+
 f = open("요한복음.txt", mode='rt', encoding='utf-8')
 text = f.read()
 f.close()
@@ -59,3 +61,5 @@ def print_array(arr):
     print("Array's Data:\n", arr)
 
 print_array(model.wv.__getitem__(["예수", "성령"]))
+
+print("Application has ended @ " + time.strftime('%c', time.localtime(time.time())))
