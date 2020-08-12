@@ -39,7 +39,7 @@ hs = 1 = Hierarchical Softmax 사용, Default = 0 (Negative Sampling)
 min_count = 1 = 단어 등장 횟수가 1보다 작은 단어 무시 (즉 1 경우 모든 단어 사용)
 """
 data = word2vec.LineSentence(morpheme_file)
-model = word2vec.Word2Vec(data, size=300, window=10, sg=1, hs=1, min_count=1, batch_words=10000, iter=10, workers=4)
+model = word2vec.Word2Vec(data, size=1000, window=10, sg=1, hs=1, min_count=1, batch_words=10000, iter=10, workers=4)
 model.save('bible_word2vec_gensim.model') #용량이 클 수 있음 (말뭉치 포함)
 print('\n//Done: Model has been saved.\n')
 
