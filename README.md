@@ -1,6 +1,6 @@
 # project-make-computer-read-bible
 
-### https://github.com/boanuge/Llama-2-Open-Source-LLM-CPU-Inference @ Github Repository <br>
+#### https://github.com/boanuge/Llama-2-Open-Source-LLM-CPU-Inference @ Github Repository <br>
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com> conda activate base <br>
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com> python .\db_build.py <br>
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com> python .\main.py <br>
