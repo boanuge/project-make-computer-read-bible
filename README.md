@@ -5,6 +5,24 @@ PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com> conda activate base
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com> python .\db_build.py <br>
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com> python .\main.py <br>
 <br>
+# Who is Holy Spirit?
+## Answer: The Holy Spirit is God's Spirit that dwells within believers (Romans 8:9-11, 1 Corinthians 3:16). It is the third person of the Trinity, along with God the Father and Jesus Christ the Son. The Holy Spirit convicts people of sin (John 16:8-11), regenerates the hearts of believers (Titus 3:5), and empowers them to live a holy life (Galatians 5:16-26).
+==================================================<br>
+Source Document 1<br>
+Source Text: Acts 8:16 For up to that time he had not come on any of them; only baptism had been given to them in the name of the Lord Jesus.
+Acts 8:17 Then they put their hands on them, and the Holy Spirit came on them.
+Acts 8:18 Now when Simon saw that the Holy Spirit was given through the touch of the Apostles' hands, he made them an offering of money, saying,
+Acts 8:19 Give me this power, so that when I put my hands on anyone he may get the Holy Spirit.<br>
+Document Name: data\data_5_bible_english_BBE.txt<br>
+============================================================<br>
+Source Document 2<br>
+Source Text: 1John 4:1 My loved ones, do not put your faith in every spirit, but put them to the test, to see if they are from God: because a great number of false prophets have gone out into the world.
+1John 4:2 By this you may have knowledge of the Spirit of God: every spirit which says that Jesus Christ has come in the flesh is of God:
+1John 4:3 And every spirit which does not say this is not from God: this is the spirit of Antichrist, of which you have had word; and it is in the world even now.<br>
+Document Name: data\data_5_bible_english_BBE.txt<br>
+============================================================<br>
+Time to retrieve response: 82.0618728<br>
+<br>
 # Who is Jesus?
 ## Answer: Jesus is the Christ, the Son of God.
 ==================================================<br>
