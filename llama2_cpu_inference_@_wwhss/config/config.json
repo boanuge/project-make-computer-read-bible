@@ -1,0 +1,12 @@
+{
+  "RETURN_SOURCE_DOCUMENTS": true,
+  "VECTOR_COUNT": 1,
+  "CHUNK_SIZE": 770,
+  "CHUNK_OVERLAP": 70,
+  "DATA_PATH": "wwhss_data/",
+  "DB_FAISS_PATH": "vectorstore/db_faiss",
+  "MODEL_TYPE": "llama",
+  "MODEL_BIN_PATH": "models/models--TheBloke--Llama-2-7B-Chat-GGML/snapshots/76cd63c351ae389e1d4b91cab2cf470aab11864b/llama-2-7b-chat.ggmlv3.q4_0.bin",
+  "MAX_NEW_TOKENS": 4400,
+  "TEMPERATURE": 0.153
+}
