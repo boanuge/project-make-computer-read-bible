@@ -1,3 +1,8 @@
+# 영어성경 5개 DB 구축 : 80 MBytes, 20 Minutes
+PS C:\AI\llama2_cpu_inference_@_wwhss> python .\wwhss_db.py
+Time(in seconds) to generate vector db: 1159.4997665
+PS C:\AI\llama2_cpu_inference_@_wwhss> 
+
 =======================
 = 5 Bibles in English =
 =======================
