@@ -1,5 +1,5 @@
 ================================================================================
-Download the desired quantized Llama-2-7B-Chat model from https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+Download the desired quantized (3.79 GB) Llama-2-7B-Chat model from https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ================================================================================
 
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com\models> python
@@ -23,7 +23,7 @@ To support symlinks on Windows, you either need to activate Developer Mode or to
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com\models> 
 
 ================================================================================
-Download for better results Llama-2-13B-Chat model from https://huggingface.co/TheBloke/Llama-2-13B-Chat-GGML/tree/main
+Download for better results (13.8 GB) Llama-2-13B-Chat model from https://huggingface.co/TheBloke/Llama-2-13B-Chat-GGML/tree/main
 ================================================================================
 
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com\models> python
