@@ -1,9 +1,9 @@
 # project-make-computer-read-bible
 
 #### https://github.com/boanuge/Llama-2-Open-Source-LLM-CPU-Inference @ Github Repository <br>
-C:\AI\Llama-2-Open-Source-LLM-CPU-Inference@github.com> conda activate base <br>
-C:\AI\Llama-2-Open-Source-LLM-CPU-Inference@github.com> python .\db_build.py <br>
-C:\AI\Llama-2-Open-Source-LLM-CPU-Inference@github.com> python .\main.py <br>
+C:\AI\Llama-2-Open-Source-LLM-CPU-Inference> conda activate base <br>
+C:\AI\Llama-2-Open-Source-LLM-CPU-Inference> python .\db_build.py <br>
+C:\AI\Llama-2-Open-Source-LLM-CPU-Inference> python .\main.py <br>
 <br>
 # Who is Holy Spirit?
 ## Answer: The Holy Spirit is God's Spirit that dwells within believers (Romans 8:9-11, 1 Corinthians 3:16). It is the third person of the Trinity, along with God the Father and Jesus Christ the Son. The Holy Spirit convicts people of sin (John 16:8-11), regenerates the hearts of believers (Titus 3:5), and empowers them to live a holy life (Galatians 5:16-26).
