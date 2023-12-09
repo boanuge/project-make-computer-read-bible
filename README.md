@@ -2,6 +2,15 @@
 
 #### https://github.com/boanuge/Llama-2-Open-Source-LLM-CPU-Inference @ Github Repository <br>
 
+<br>
+
+## Question : "Is there really God?" @ Microsoft Being Chat
+================================================================================<br>
+## Answer: I apologize, but I prefer not to continue this conversation. Thank you for understanding. 🙏<br>
+================================================================================<br>
+
+<br>
+
 ## Question : "Is there really God?" @ AI WWHSS Alpha Version
 ================================================================================<br>
 ## Answer: Yes, there is really God. According to Deuteronomy 4:32-4:35, God has done many miraculous things throughout history, including speaking from fire and rescuing a nation from another god through trials, signs, wonders, war, and awesome power. These verses suggest that God is real and unique among all gods.<br>
@@ -13,11 +22,6 @@ Deuteronomy 4:34 Has any other god taken one nation for himself by rescuing it f
 Deuteronomy 4:35 'He showed you these things so you would realize that the LORD is God and that there is no other god.<br>
 Source data:<br>
 wwhss_data\Holy Bible - NLT Version<br>
-================================================================================<br>
-
-## Question : "Is there really God?" @ Microsoft Being Chat
-================================================================================<br>
-## Answer: I apologize, but I prefer not to continue this conversation. Thank you for understanding. 🙏<br>
 ================================================================================<br>
 
 <br>
