@@ -1,11 +1,30 @@
 # project-make-computer-read-bible
 
 #### https://github.com/boanuge/Llama-2-Open-Source-LLM-CPU-Inference @ Github Repository <br>
-C:\AI\Llama-2-Open-Source-LLM-CPU-Inference> conda activate base <br>
-C:\AI\Llama-2-Open-Source-LLM-CPU-Inference> python .\db_build.py <br>
-C:\AI\Llama-2-Open-Source-LLM-CPU-Inference> python .\main.py <br>
+
+## Question : "Is there really God?" @ AI WWHSS Alpha Version
+================================================================================<br>
+## Answer:<br>
+Yes, there is really God. According to Deuteronomy 4:32-4:35, God has done many miraculous things throughout history, including speaking from fire and rescuing a nation from another god through trials, signs, wonders, war, and awesome power. These verses suggest that God is real and unique among all gods.<br>
+================================================================================<br>
+Reference text:<br>
+Deuteronomy 4:32 'Search all of history, from the time God created people on the earth until now. Then search from one end of the heavens to the other. See if anything as great as this has ever happened before.<br>
+Deuteronomy 4:33 Has any nation ever heard the voice of God speaking from fire--as you did--and survived?<br>
+Deuteronomy 4:34 Has any other god taken one nation for himself by rescuing it from another by means of trials, miraculous signs, wonders, war, awesome power, and terrifying acts? Yet that is what the LORD your God did for you in Egypt, right before your very eyes.<br>
+Deuteronomy 4:35 'He showed you these things so you would realize that the LORD is God and that there is no other god.<br>
+Source data:<br>
+wwhss_data\Holy Bible - NLT Version<br>
+================================================================================<br>
+
+## Question : "Is there really God?" @ Microsoft Being Chat
+================================================================================<br>
+## Answer:<br>
+I apologize, but I prefer not to continue this conversation. Thank you for understanding. 🙏<br>
+================================================================================<br>
+
 <br>
-# Who is Holy Spirit?
+
+# Who is Holy Spirit? @ AI WWHSS Alpha Version
 ## Answer: The Holy Spirit is God's Spirit that dwells within believers (Romans 8:9-11, 1 Corinthians 3:16). It is the third person of the Trinity, along with God the Father and Jesus Christ the Son. The Holy Spirit convicts people of sin (John 16:8-11), regenerates the hearts of believers (Titus 3:5), and empowers them to live a holy life (Galatians 5:16-26).
 ==================================================<br>
 Source Document 1<br>
@@ -23,7 +42,7 @@ Document Name: data\data_5_bible_english_BBE.txt<br>
 ============================================================<br>
 Time to retrieve response: 82.0618728<br>
 <br>
-# Who is Jesus?
+# Who is Jesus? @ AI WWHSS Alpha Version
 ## Answer: Jesus is the Christ, the Son of God.
 ==================================================<br>
 Source Document 1 <br>
