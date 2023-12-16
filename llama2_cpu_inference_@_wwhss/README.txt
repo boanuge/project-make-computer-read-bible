@@ -4,7 +4,7 @@ Download for better results from https://huggingface.co/TheBloke/Orca-2-13B-GGUF
 
 PS C:\AI\Llama-2-Open-Source-LLM-CPU-Inference_@_github.com\models> python
 >>> from huggingface_hub import hf_hub_download
->>> hf_hub_download(repo_id="TheBloke/Orca-2-13B-GGUF", filename="orca-2-13b.Q8_0.gguf", cache_dir="./")
+>>> hf_hub_download(repo_id="TheBloke/Orca-2-13B-GGUF", filename="orca-2-13b.Q8_0.gguf", cache_dir="./") # GGUF(CPU 사용) / GPTQ(GPU 사용)
 >>> quit()
 
 ================================================================================
