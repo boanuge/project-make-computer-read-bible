@@ -1,4 +1,28 @@
 ================================================================================
+Issue Solution : import langchain TypeError: issubclass() arg 1 must be a class
+================================================================================
+...
+  File "pydantic\main.py", line 198, in pydantic.main.ModelMetaclass.__new__
+  File "pydantic\fields.py", line 506, in pydantic.fields.ModelField.infer
+  File "pydantic\fields.py", line 436, in pydantic.fields.ModelField.__init__
+  File "pydantic\fields.py", line 552, in pydantic.fields.ModelField.prepare
+  File "pydantic\fields.py", line 663, in pydantic.fields.ModelField._type_analysis
+  File "pydantic\fields.py", line 808, in pydantic.fields.ModelField._create_sub_type
+  File "pydantic\fields.py", line 436, in pydantic.fields.ModelField.__init__
+  File "pydantic\fields.py", line 552, in pydantic.fields.ModelField.prepare
+  File "pydantic\fields.py", line 668, in pydantic.fields.ModelField._type_analysis
+  File "C:\ProgramData\Anaconda3\lib\typing.py", line 852, in __subclasscheck__
+    return issubclass(cls, self.__origin__)
+TypeError: issubclass() arg 1 must be a class
+PS C:\AI\ai_@_wwhss_alpha_version_orca2_13b>
+
+First, try the following:
+(base) $ pip install typing-inspect==0.8.0 typing_extensions==4.5.0
+If above command is not resolve the issue, then:
+(base) $ pip install pydantic -U
+(base) $ pip install pydantic==1.10.11
+
+================================================================================
 Download for better results from https://huggingface.co/TheBloke/orca_mini_v2_13b-GGML
 ================================================================================
 
